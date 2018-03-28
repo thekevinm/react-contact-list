@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  margin-left:650px;
+  margin-top: 50px;
+}
+*, *:before, *:after{box-sizing: inherit;}
+
+/*HEADER STUFF*/
+.homeHeader {
+  border-bottom: 2px solid green;
+  background-color: rgb(130, 170, 73);
+  width: 347px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+}
+
+.aboutHead {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(130, 170, 73);
+  width: 347px;
+  height: auto;
+}
+
+#backButton {
+  font-size: 25px;
+}
+
+/*LINK STUFF*/
+#backButton {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: green;
+}
+
+a:hover {
+  color:lightgreen;
+}
+
+/*IMAGES*/
+.homePics {
+  border-radius: 50%;
+}
+
+.aboutPic {
+  border-radius: 50%;
+}
+
+/*MAIN PAGE*/
+p #names{
+  border:1px solid red;
+}
+
+.mainCont {
+  border:1px solid silver;
+  width: 349px;
+}
+
+
+#names{
+  padding-left: 15px;
+  display: flex;
+  font-size: 25px;
+  border-bottom:1px solid silver;
+}
+
+/*ABOUT PAGE*/
+
+.aboutCont {
+  border:1px solid silver;
+  width: 349px;
+}
+
+.iconCont {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.iconCool {
+  border-bottom:1px solid silver;
+}
+
